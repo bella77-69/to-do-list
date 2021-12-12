@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Todo from "./ToDo";
 import TodoForm from "./ToDoForm";
-
+import "./ToDoList.scss"
 
 export default function ToDoList() {
   const [todos, setTodos] = useState([
@@ -51,7 +51,7 @@ export default function ToDoList() {
   return (
     <div className="list">
       <h1 className="list-title">
-        Todo List <span className="list-subtitle">A simple React Todo List App</span>
+        To-Do List 
       </h1>
       <ul className="list-list">{todosList}</ul>
       <TodoForm createTodo={create} />

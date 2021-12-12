@@ -1,3 +1,5 @@
+@use "../styles/_global.scss" as *;
+  
 .list {
     margin: 4rem auto;
     padding: 2rem 3rem 3rem;
@@ -15,15 +17,8 @@
   &-title {
     font-weight: normal;
     font-size: 2.6rem;
+    display: flex;
     letter-spacing: 0.05em;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  &-subtitle {
-    display: block;
-    font-size: 0.8rem;
-    margin-bottom: 0.7rem;
-    margin-left: 3px;
-    margin-top: 0.2rem;
   }
 }

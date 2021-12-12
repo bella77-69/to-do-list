@@ -22,7 +22,7 @@ export default function TodoForm({ task, createTodo }) {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <label className="form-task">New todo</label>
+      <label className="form-task">New To-do</label>
       <input className='form-input'
         value={userInput.task}
         onChange={handleChange}
